@@ -1375,6 +1375,363 @@ footer p {
    CELULARES PEQUENOS
    ========================================================= */
 
+/* =========================================================
+   RESPONSIVIDADE
+   ========================================================= */
+
+/* TABLET */
+@media (max-width: 1000px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .produtos-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .produto-detalhe {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .quem-somos-conteudo {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+}
+
+
+/* =========================================================
+   CELULAR
+   ========================================================= */
+
+@media (max-width: 700px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+
+    /* CABEÇALHO */
+
+    .cabecalho-imagem {
+        width: 100%;
+        height: auto;
+    }
+
+
+    /* MENU */
+
+    .menu {
+        min-height: auto;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        justify-content: center;
+
+        gap: 0;
+
+        padding: 5px 10px;
+
+        background: #ffffff;
+    }
+
+    .menu a {
+        padding: 10px 8px;
+
+        font-size: 13px;
+
+        white-space: nowrap;
+    }
+
+    .menu a::after {
+        display: none;
+    }
+
+
+    /* HERO */
+
+    .hero {
+        min-height: auto;
+
+        padding: 70px 20px 80px;
+
+        text-align: center;
+    }
+
+    .hero-conteudo {
+        width: 100%;
+    }
+
+    .hero span {
+        font-size: 10px;
+
+        letter-spacing: 3px;
+
+        margin-bottom: 15px;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+
+        line-height: 1.12;
+
+        margin-bottom: 20px;
+    }
+
+    .hero p {
+        font-size: 15px;
+
+        line-height: 1.7;
+
+        margin-bottom: 28px;
+    }
+
+    .botao {
+        padding: 13px 24px;
+
+        font-size: 14px;
+    }
+
+
+    /* TÍTULOS */
+
+    .titulo-secao {
+        margin-bottom: 40px;
+    }
+
+    .titulo-secao span {
+        font-size: 10px;
+
+        letter-spacing: 3px;
+
+        margin-bottom: 12px;
+    }
+
+    .titulo-secao h2 {
+        font-size: 34px;
+
+        margin-bottom: 15px;
+    }
+
+    .titulo-secao p {
+        font-size: 15px;
+
+        line-height: 1.6;
+    }
+
+
+    /* PRODUTOS */
+
+    .produtos {
+        padding: 70px 0;
+    }
+
+    .produtos-grid {
+        grid-template-columns: 1fr;
+
+        gap: 25px;
+    }
+
+    .produto-card {
+        width: 100%;
+
+        max-width: 420px;
+
+        margin: 0 auto;
+    }
+
+    .produto-imagem {
+        height: 300px;
+    }
+
+    .produto-info {
+        padding: 22px 20px 25px;
+    }
+
+    .produto-info h3 {
+        font-size: 22px;
+    }
+
+    .produto-info p {
+        min-height: auto;
+
+        font-size: 14px;
+
+        line-height: 1.6;
+
+        margin-bottom: 18px;
+    }
+
+    .produto-info button {
+        padding: 11px 22px;
+    }
+
+
+    /* QUEM SOMOS */
+
+    .quem-somos {
+        padding: 70px 0;
+    }
+
+    .quem-somos-conteudo {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .quem-somos-imagem {
+        width: 100%;
+    }
+
+    .quem-somos-texto h2 {
+        font-size: 36px;
+    }
+
+    .quem-somos-texto p {
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+
+
+    /* CTA */
+
+    .cta {
+        padding: 70px 20px;
+    }
+
+    .cta h2 {
+        font-size: 34px;
+
+        line-height: 1.2;
+    }
+
+    .cta p {
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+
+
+    /* PÁGINA DO PRODUTO */
+
+    .pagina-produto {
+        padding: 60px 0;
+    }
+
+    .produto-detalhe {
+        grid-template-columns: 1fr;
+
+        gap: 35px;
+    }
+
+    .produto-galeria {
+        grid-template-columns: 1fr;
+
+        gap: 12px;
+    }
+
+    .produto-galeria img {
+        width: 100%;
+
+        height: 280px;
+    }
+
+    .produto-galeria img:first-child {
+        grid-column: auto;
+
+        height: 350px;
+    }
+
+    .produto-detalhe-info {
+        padding-top: 0;
+    }
+
+    .produto-detalhe-info h1 {
+        font-size: 38px;
+
+        line-height: 1.15;
+    }
+
+    .produto-detalhe-info .resumo {
+        font-size: 17px;
+
+        line-height: 1.6;
+    }
+
+    .produto-detalhe-info .descricao {
+        font-size: 15px;
+
+        line-height: 1.7;
+    }
+
+    .botao-whatsapp {
+        width: 100%;
+
+        padding: 14px 20px;
+    }
+
+    .botao-voltar {
+        margin-bottom: 30px;
+    }
+
+
+    /* MODAL */
+
+    .modal-imagem {
+        padding: 15px;
+    }
+
+    .modal-imagem img {
+        max-width: 95vw;
+
+        max-height: 85vh;
+    }
+
+    .modal-fechar {
+        top: 15px;
+
+        right: 20px;
+
+        font-size: 35px;
+    }
+
+
+    /* RODAPÉ */
+
+    footer {
+        padding: 50px 20px 25px;
+    }
+
+    .footer-conteudo h3 {
+        font-size: 25px;
+    }
+
+    .footer-links {
+        flex-direction: column;
+
+        align-items: center;
+
+        gap: 12px;
+
+        margin: 25px 0;
+    }
+
+    .footer-links a {
+        width: 180px;
+    }
+
+}
+
+
+/* =========================================================
+   CELULARES PEQUENOS
+   ========================================================= */
+
 @media (max-width: 400px) {
 
     .menu a {
