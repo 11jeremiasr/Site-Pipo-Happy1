@@ -2041,7 +2041,10 @@ footer p {
     .quem-somos {
         padding: 70px 0;
     }
-
+     {
+    .quem-somos {
+    background-color: #F9F6EF;
+}
     .quem-somos-conteudo {
         grid-template-columns: 1fr;
 
@@ -2364,7 +2367,10 @@ footer p {
 
 
     /* MODAL */
-
+    .menu,
+    .menu-produto {
+    background-color: #F9F6EF;
+    }
     .modal-imagem {
         padding: 15px;
     }
