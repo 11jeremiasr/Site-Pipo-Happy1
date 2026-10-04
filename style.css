@@ -3251,3 +3251,48 @@ footer p {
     }
 
 }
+ /* =========================================
+   CORREÇÃO GLOBAL — PÁGINA DE PRODUTO
+   ========================================= */
+
+#pagina-produto {
+    min-height: auto !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 20px 70px !important;
+}
+
+#pagina-produto .produto-detalhe {
+    min-height: auto !important;
+    height: auto !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+}
+
+#pagina-produto .produto-detalhe-info {
+    min-height: auto !important;
+    height: auto !important;
+    margin: 0 auto !important;
+}
+
+/* Botão voltar */
+#pagina-produto .voltar-produtos {
+    margin: 30px auto 35px !important;
+}
+
+/* Área das informações */
+#pagina-produto .produto-detalhe-info {
+    max-width: 900px;
+    text-align: center;
+}
+
+/* Fotos */
+#pagina-produto .produto-imagens {
+    margin: 30px auto !important;
+}
+
+/* Evita espaços artificiais */
+#pagina-produto section,
+#pagina-produto div {
+    min-height: auto;
+}
