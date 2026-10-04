@@ -32,6 +32,19 @@
     --raio: 18px;
 
     --largura: 1200px;
+   :root {
+    --creme: #F9F6EF;
+    --vermelho: #941538;
+    --escuro: #2b0b14;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--creme);
+    color: #222;
+}
 }
 
 
