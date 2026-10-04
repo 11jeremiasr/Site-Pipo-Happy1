@@ -2618,7 +2618,9 @@ footer p {
 
 
     /* QUEM SOMOS */
-
+    .quem-somos {
+    background-color: #F9F6EF;
+    } 
     .quem-somos {
         padding: 70px 0;
     }
@@ -2727,7 +2729,12 @@ footer p {
 
 
     /* MODAL */
-
+    
+     .menu,
+     .menu-produto {
+         background-color: #F9F6EF;
+    }
+   
     .modal-imagem {
         padding: 15px;
     }
