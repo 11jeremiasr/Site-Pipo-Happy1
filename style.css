@@ -3087,56 +3087,8 @@ footer p {
        PÁGINA DO PRODUTO
        ===================================================== */
 
-    .produto-detalhe {
-        width: 100%;
-        padding: 35px 18px 60px;
-        box-sizing: border-box;
-    }
+   
 
-    .produto-detalhe-container {
-        width: 100%;
-        display: flex !important;
-        flex-direction: column !important;
-        gap: 25px;
-    }
-
-    .produto-detalhe-imagens {
-        width: 100%;
-    }
-
-    .produto-detalhe-imagens img {
-        width: 100%;
-        height: auto;
-
-        display: block;
-
-        border-radius: 18px;
-    }
-
-    .produto-detalhe-info {
-        width: 100%;
-        padding: 10px 5px;
-        box-sizing: border-box;
-
-        text-align: center;
-    }
-
-    .produto-detalhe-info h1 {
-        margin: 0 0 15px;
-
-        font-size: 34px !important;
-        line-height: 1.15;
-    }
-
-    .produto-detalhe-info .resumo {
-        font-size: 17px !important;
-        line-height: 1.6;
-    }
-
-    .produto-detalhe-info p {
-        font-size: 16px;
-        line-height: 1.7;
-    }
 
 
     /* =====================================================
